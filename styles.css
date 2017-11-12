@@ -1,0 +1,40 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+	background: #ebebe0;
+	padding: 100px;
+}
+#tekst{
+	width: auto;
+	height: auto;
+	border: 1px solid #ddd;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 100px;
+	line-height: 160%;
+	text-align: justify;
+}
+table{
+	width:100%;
+  border-collapse: collapse;
+}
+th, td {
+    padding-left: 15px;
+    text-align: left;
+}
+table, th, td {
+   border: 1px solid black;
+}
+input[type="submit"]{
+	padding: 5px 15px;
+	cursor: pointer;
+	background: #2529A2;
+	color: #fff;
+}
+#chartContainer{
+	height: 300px;
+	width: 100%;
+	border: 1px solid #ddd;
+	background: #ffffff;
+}
